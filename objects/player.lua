@@ -200,6 +200,10 @@ function P_PLAYER:update(dt)
     elseif self.rot ~= 0 then
         self.rot = 0
         self.rotdir = false
+        if self.rotdirBuffer ~= nil then
+            self:rotate(self.rotdirBuffer)
+            self.rotdirBuffer = nil
+        end
     end
 
     self:magnetupdate(dt)
@@ -343,9 +347,15 @@ function P_PLAYER:startfall()
 end
 
 function P_PLAYER:rotate(dir)
-    if (not self.rotationenabled) or self.dead or self.rotdir then
+    if (not self.rotationenabled) or self.dead then
         return
     end
+
+    if self.rotdir then
+        self.rotdirBuffer = dir
+        return
+    end
+
     self.rotdir = dir
     self.rottimer = 0.2
     if self.gravity == 0 then
