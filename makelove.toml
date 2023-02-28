@@ -1,0 +1,15 @@
+name = "Reverse Polarity"
+default_targets = ["win32", "win64", "lovejs", "macos"]
+build_directory = "builds"
+icon_file = "images/icon.png"
+love_version = "11.3"
+
+love_files = [
+    "+*",
+    "-*/.*",
+    "-./builds/*",
+]
+
+[lovejs]
+title = "Reverse Polarity"
+memory = "80000000"
