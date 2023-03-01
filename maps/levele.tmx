@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="53" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="620">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="53" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="622">
  <editorsettings>
   <export target="levele.lua" format="lua"/>
  </editorsettings>
@@ -165,12 +165,12 @@
     <property name="id" value="ending1"/>
    </properties>
   </object>
-  <object id="609" name="for the love game jam 2023" class="text" x="416" y="528" width="16" height="16">
+  <object id="609" name="for the love game jam 2023" class="text" x="416" y="400" width="16" height="16">
    <properties>
     <property name="id" value="ending3"/>
    </properties>
   </object>
-  <object id="610" name="created by aidan" class="text" x="416" y="400" width="16" height="16">
+  <object id="610" name="created by aidan" class="text" x="416" y="384" width="16" height="16">
    <properties>
     <property name="id" value="ending2"/>
    </properties>
@@ -180,7 +180,7 @@
     <property name="id" value="ending3"/>
    </properties>
   </object>
-  <object id="613" name="all programming, art, levels" class="text" x="416" y="656" width="16" height="16">
+  <object id="613" name="all programming, art, levels" class="text" x="416" y="640" width="16" height="16">
    <properties>
     <property name="id" value="ending2"/>
    </properties>
@@ -192,7 +192,17 @@
     <property name="oneside" value="south"/>
    </properties>
   </object>
-  <object id="618" name="and sound was created in 10 days" class="text" x="416" y="672" width="16" height="16">
+  <object id="618" name="and sound was created in 10 days" class="text" x="416" y="656" width="16" height="16">
+   <properties>
+    <property name="id" value="ending2"/>
+   </properties>
+  </object>
+  <object id="620" name="rotation buffer by" class="text" x="416" y="512" width="16" height="16">
+   <properties>
+    <property name="id" value="ending2"/>
+   </properties>
+  </object>
+  <object id="621" name="mellowarpeggiation" class="text" x="416" y="528" width="16" height="16">
    <properties>
     <property name="id" value="ending2"/>
    </properties>

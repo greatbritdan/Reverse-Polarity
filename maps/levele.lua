@@ -10,7 +10,7 @@ return {
   tilewidth = 16,
   tileheight = 16,
   nextlayerid = 6,
-  nextobjectid = 620,
+  nextobjectid = 622,
   properties = {},
   tilesets = {
     {
@@ -337,7 +337,7 @@ return {
           class = "text",
           shape = "rectangle",
           x = 416,
-          y = 528,
+          y = 400,
           width = 16,
           height = 16,
           rotation = 0,
@@ -352,7 +352,7 @@ return {
           class = "text",
           shape = "rectangle",
           x = 416,
-          y = 400,
+          y = 384,
           width = 16,
           height = 16,
           rotation = 0,
@@ -382,7 +382,7 @@ return {
           class = "text",
           shape = "rectangle",
           x = 416,
-          y = 656,
+          y = 640,
           width = 16,
           height = 16,
           rotation = 0,
@@ -426,7 +426,37 @@ return {
           class = "text",
           shape = "rectangle",
           x = 416,
-          y = 672,
+          y = 656,
+          width = 16,
+          height = 16,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["id"] = "ending2"
+          }
+        },
+        {
+          id = 620,
+          name = "rotation buffer by",
+          class = "text",
+          shape = "rectangle",
+          x = 416,
+          y = 512,
+          width = 16,
+          height = 16,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["id"] = "ending2"
+          }
+        },
+        {
+          id = 621,
+          name = "mellowarpeggiation",
+          class = "text",
+          shape = "rectangle",
+          x = 416,
+          y = 528,
           width = 16,
           height = 16,
           rotation = 0,
