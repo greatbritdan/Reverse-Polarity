@@ -200,9 +200,9 @@ function P_PLAYER:update(dt)
     elseif self.rot ~= 0 then
         self.rot = 0
         self.rotdir = false
-        if self.rotdirBuffer ~= nil then
-            self:rotate(self.rotdirBuffer)
-            self.rotdirBuffer = nil
+        if self.rotdirbuffer ~= nil then
+            self:rotate(self.rotdirbuffer)
+            self.rotdirbuffer = nil
         end
     end
 
@@ -352,10 +352,9 @@ function P_PLAYER:rotate(dir)
     end
 
     if self.rotdir then
-        self.rotdirBuffer = dir
+        self.rotdirbuffer = dir
         return
     end
-
     self.rotdir = dir
     self.rottimer = 0.2
     if self.gravity == 0 then
