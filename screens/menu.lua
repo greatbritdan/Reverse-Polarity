@@ -227,7 +227,7 @@ function menu.draw()
         if WIDTH >= 256 then
             fit = "left"
         end
-        love.graphics.printf("made by aidan\nfor the 2023 love game jam!", 4, round(HEIGHT-8-(getFontHeight()*3)+getFontSpacing()), round(WIDTH-8), fit)
+        love.graphics.printf("(v1.01) made by aidan\nfor the 2023 love game jam!", 4, round(HEIGHT-8-(getFontHeight()*3)+getFontSpacing()), round(WIDTH-8), fit)
         if reset then
             love.graphics.setColor(1,0.6,0.6)
         end
